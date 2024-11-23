@@ -92,7 +92,7 @@ sh run_sentence_retrieval.sh
 import numpy as np
 from transformers import AutoModel, AutoTokenizer
 
-model_path = 'snumin44/simcse-ko-bert-supervised'
+model_path = 'snumin44/fincse-multilingual-xlm-roberta-base'
 model = AutoModel.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
@@ -120,4 +120,11 @@ for idx, target in enumerate(targets):
     similarity = cos_sim(query_embeddings, target_embeddings)
     print(f"Similarity between query and target {idx}: {similarity:.4f}")
 ```
+```
 
+```
+
+## Citing
+```
+
+```
