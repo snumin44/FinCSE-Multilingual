@@ -50,7 +50,12 @@ sh run_eval.sh
 ```
 
 **(4) Inference**
-- 
+- Perform inference by executing the shell script **'run_sentence_retrieval.sh'** in the **'evaluation'** directory.
+- Note that the Faiss index and the pickle file of sentences are required to perform inference.
+```
+cd evaluation
+sh run_sentence_retrieval.sh
+```
 
 
 
