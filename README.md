@@ -26,7 +26,10 @@
 You can fine-tune your FinCSE model using your own parallel sentence data.
 
 **(1) Preparing Dataset**
-- ㅇㅇ
+- The dataset must be placed in the **'data'** directory and organized in the following structure.
+- The headers and the following parallel sentences must be delimited with '\t' (tab-separated).
 ```
+sent0  sent1
+(...)  (...)
 ```
 
