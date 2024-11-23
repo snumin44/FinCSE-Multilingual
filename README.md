@@ -96,14 +96,14 @@ model_path = 'snumin44/simcse-ko-bert-supervised'
 model = AutoModel.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-query = '내일 아침에 비가 올까요?'
+query = '중국 생성형 AI 기업 현황'
 
 targets = [
-    '내일 아침에 우산을 챙겨야 합니다.',
-    '어제 저녁에는 비가 많이 내렸습니다.',
-    '청계천은 대한민국 서울에 있습니다.',
-    '이번 주말에 축구 대표팀 경기가 있습니다.',
-    '저는 매일 아침 일찍 일어나 책을 읽습니다.'
+    "Experts predict that the U.S. Federal Reserve will lower interest rates by 0.25 percentage points this month, predicting that interest rates will fall by more than 0.5 percentage points in total within this year.",
+    "铁矿石是高度依赖中国需求的原材料，中国占各矿业公司出口的70%。",
+    "オラクルは今年の大型技術株のうち、株価上昇率が人工知能（ＡＩ）半導体大将主であるＮＶＩＤＩＡの１３９％上昇率を除けば最も高い。",
+    "NYT chỉ ra rằng điểm yếu của ngành công nghiệp Trung Quốc là LLM và hầu hết các chương trình mà các công ty Trung Quốc đưa ra dưới dạng AI tổng hợp trên thực tế đều được nhập khẩu từ Mỹ và được cải tiến.",
+    "Harga saham Trump Media, perusahaan induk Truth Social, perusahaan layanan jejaring sosial (SNS) yang didirikan oleh mantan calon presiden AS dari Partai Republik Donald Trump, anjlok lebih dari 10%."
 ]
 
 query_feature = tokenizer(query, return_tensors='pt')
