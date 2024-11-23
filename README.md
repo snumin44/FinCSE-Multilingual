@@ -121,10 +121,19 @@ for idx, target in enumerate(targets):
     print(f"Similarity between query and target {idx}: {similarity:.4f}")
 ```
 ```
-
+Similarity between query and target 0: 0.1105
+Similarity between query and target 1: 0.2662
+Similarity between query and target 2: 0.3043
+Similarity between query and target 3: 0.5328
+Similarity between query and target 4: 0.1904
 ```
 
 ## Citing
 ```
-
+@article{gao2021simcse,
+   title={{SimCSE}: Simple Contrastive Learning of Sentence Embeddings},
+   author={Gao, Tianyu and Yao, Xingcheng and Chen, Danqi},
+   booktitle={Empirical Methods in Natural Language Processing (EMNLP)},
+   year={2021}
+}
 ```
