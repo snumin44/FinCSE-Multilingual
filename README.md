@@ -66,9 +66,14 @@ sh run_sentence_retrieval.sh
 - The performance of these FinCSE models on financial **sentence retrieval** task is as follows. (This performance is evaluated using 50,000 samples from the dataset, which were not used in the fine-tuning.)
 
 ||FinCSE-mbert-cased|FinCSE-xlm-roberta-base|FinCSE-xlm-roberta-large|
-|---|---|---|---|
-|ACC@1||||
-|ACC@5||||
-|ACC@10||||
+|:---:|:---:|:---:|:---:|
+|**ACC@1**|97.14|97.24|97.75|
+|**ACC@5**|98.75|98.76|98.86|
+|**ACC@10**|98.87|98.88|98.91|
 
+(※ It is recommended to use the FinCSE model based on XLM-RoBERTa, as the mBERT-based model is unstable.)
+
+```python
+
+```
 
