@@ -33,3 +33,13 @@ sent0  sent1
 (...)  (...)
 ```
 
+**(2) Fine-tuning**
+- Fine-tune your FinCSE by executing the shell script **'run_train.sh'** in the **'train'** directory.
+- You can modify the base model, dataset path, or hyperparameters in the shell script.
+```
+cd train
+sh run_train.sh
+```
+
+**(3) Evaluation**
+- Evaluation your FinCSE by executing the shell script **'run_evaluate.sh'** in the **'evaluate'** directory.
