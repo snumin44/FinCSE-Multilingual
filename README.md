@@ -57,5 +57,12 @@ cd evaluation
 sh run_sentence_retrieval.sh
 ```
 
+## 4. Checkpoints
+- You can use FinCSE models based on mBERT and XLM-RoBERTa by downloading them from HuggingFace.
+  - [fincse-multilingual-bert-cased](https://huggingface.co/snumin44/fincse-multilingual-bert-cased)  
+  - [fincse-multilingual-xlm-roberta-base](fincse-multilingual-xlm-roberta-base)
+  - [fincse-multilingual-xlm-roberta-large](https://huggingface.co/snumin44/fincse-multilingual-xlm-roberta-large)
+
+
 
 
