@@ -23,3 +23,10 @@
 
 
 ## 3. Implementation
+You can fine-tune your FinCSE model using your own parallel sentence data.
+
+**(1) Preparing Dataset**
+- ㅇㅇ
+```
+```
+
