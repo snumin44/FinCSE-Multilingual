@@ -14,5 +14,12 @@
 - The FinCSEs are fine-tuned using the '[Financial Domain Multilingual Parallel Corpus (금융 분야 다국어 병렬 말뭉치 데이터)](https://aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71782)' provided by AI HUB in South Korea.
 - In this corpus, approximately **2.5 million English, Chinese, Japanese, Vietnamese**, and **Indonesian** sentences in the financial domain are paired with their corresponding **Korean** sentences.
 ```
-
+(KO) 이처럼 금융상품의 경우 판매단계에서 금융회사의 ... 상품의 권유는 기본이고 필수라 할 것이다.
+(ZN) 像这样，金融商品在销售阶段，提供金融公司适当的信息和推荐适合金融消费者的商品是基本，也是必须的.
 ```
+- Since this corpus doesn't have similarity scores like a general STS dataset, performance evaluation is based on a **sentence retrieval** task, which searches for corresponding sentences in other languages.
+
+&nbsp;&nbsp; (※ Note that this corpus is authorized only for individuals with South Korean citizenship.)
+
+
+## 3. Implementation
