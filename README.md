@@ -42,4 +42,15 @@ sh run_train.sh
 ```
 
 **(3) Evaluation**
-- Evaluation your FinCSE by executing the shell script **'run_evaluate.sh'** in the **'evaluate'** directory.
+- Evaluate your FinCSE by executing the shell script **'run_eval.sh'** in the **'evaluation'** directory.
+- You can modify the model to be evaluated, the dataset path, or the hyperparameters in the shell script.
+```
+cd evaluation
+sh run_eval.sh
+```
+
+**(4) Inference**
+- 
+
+
+
