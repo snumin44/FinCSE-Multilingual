@@ -11,4 +11,4 @@
 <img src="simcse.PNG" alt="example image" width="600" height="200"/>
 
 ## 2. Training Data
-- 
+- The FinCSEs are fine-tuned using the '[Financial Domain Multilingual Parallel Corpus (금융 분야 다국어 병렬 말뭉치 데이터)](https://aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71782)' provided by AI HUB in South Korea.
